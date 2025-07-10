@@ -1,0 +1,23 @@
+Solução Dissertativa:
+
+Este algoritmo calcula a multiplicação de 9 por um número inteiro n (entre 1 e 9) usando um truque matemático simples, sem usar diretamente o operador de multiplicação.
+
+Regras:
+- Para qualquer número n entre 1 e 9:
+    - A dezena do resultado é (n - 1)
+    - A unidade do resultado é (10 - n)
+- O resultado final é (n - 1) * 10 + (10 - n)
+
+Exemplo:
+Se n = 4:
+- Dezena: 4 - 1 = 3
+- Unidade: 10 - 4 = 6
+- Resultado: 3 * 10 + 6 = 36
+Ou seja, 9 x 4 = 36
+
+Passos do algoritmo:
+1. O usuário digita um número n entre 1 e 9.
+2. Calcula-se a dezena (n - 1)
+3. Calcula-se a unidade (10 - n)
+4. Multiplica-se a dezena por 10 e soma-se a unidade
+5. Exibe o resultado na tela.
